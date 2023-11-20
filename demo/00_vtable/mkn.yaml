@@ -1,0 +1,4 @@
+
+name: demo
+main: poly0.cpp
+dep: mkn.kul
