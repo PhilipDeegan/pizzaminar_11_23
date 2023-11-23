@@ -11,8 +11,8 @@ struct A {
     }
 };
 
-template <typename C>
-struct B : public C {};
+template <typename Super>
+struct B : public Super {};
 
 auto fn() {
     Box box{{0, 0, 0}, {9, 9, 9}};
